@@ -5,7 +5,7 @@ console.log("working");
 let map = L.map('mapid').setView([40.7, -94.5], 4);
 
 // Get data from cities.js
-let cityData = cities.js;
+let cityData = cities;
 
 /// Loop through the cities array and create one marker for each city.
 cityData.forEach(function(city) {
